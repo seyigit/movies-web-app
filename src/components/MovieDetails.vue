@@ -58,7 +58,7 @@ export default {
 };
 </script>
 <template>
-  <section class="allheight">
+  <section>
     <Loader v-if="isloading" />
     <section v-if="hasdetails">
       <back-drop-image :imagePath="this.movieVideo.backdrop_path" />
