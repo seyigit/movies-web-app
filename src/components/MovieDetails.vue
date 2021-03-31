@@ -98,10 +98,5 @@ export default {
 .back-to-home::before{
  content: '<';
  margin-right: 2px;
-
-}
-.allheight{
-  height: 100vh!important;
-  overflow: hidden!important;
 }
 </style>
