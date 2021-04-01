@@ -79,22 +79,7 @@ export default {
   </section>
 </template>
 <style scoped>
-.all-movies::after{
-content: '>';
-color: #aaaaaa;
-margin-left: 8px;
-font-size: 18px;
-font-weight: bold;
-}
-.all-movies{
-color: #AAAAAA;
-display: flex;
-justify-content: flex-end;
-}
-.header-text{
-  border-bottom: 3px solid aqua;
-  color:#AAAAAA;
-}
+
 </style>
 
 

@@ -17,13 +17,5 @@
 </nav>
 </template>
 <style scoped>
-.bg-dark{
-    background:#000000!important
-}
-.navigation a {
-    font-size: 17px;
-}
-.navigation a:hover{
-    color: grey;
-}
+
 </style>

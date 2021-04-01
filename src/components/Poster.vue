@@ -19,7 +19,5 @@ export default {
 </script>
 
 <style>
-.poster{
-  width: 100%;
-}
+
 </style>

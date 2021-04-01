@@ -89,14 +89,5 @@ export default {
   </section>
 </template>
 <style scoped>
-.details{
-  color: white;
-}
-.back-to-home{
-  color:white;
-}
-.back-to-home::before{
- content: '<';
- margin-right: 2px;
-}
+
 </style>

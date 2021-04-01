@@ -40,30 +40,5 @@ export default {
 
 <!-- <img :src="'https://image.tmdb.org/t/p/w500/'+movie.poster_path" alt=""> -->
 <style scoped>
-.card-text {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  color: gainsboro;
-  font-size: 15px;
-}
-.card {
-  background: #191919;
-  box-shadow: 12px 12px 16px 0 rgb(0 0 0 / 25%),
-    -8px -8px 12px 0 rgb(27 27 27 / 42%);
-  border-bottom: 2px solid transparent;
-}
-.card:hover {
-  border-bottom: 2px solid gainsboro;
-  box-sizing: inherit;
-}
-.card-title {
-  font-weight: bold;
-  font-size: 17px;
-  color: gainsboro;
-}
-small {
-  color: gainsboro !important;
-}
+
 </style>

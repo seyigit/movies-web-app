@@ -22,14 +22,5 @@ export default {
 </script>
 
 <style>
-.backdrop{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    filter: blur(30px);
-    box-sizing: content-box;
 
-}
 </style>

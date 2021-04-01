@@ -32,8 +32,5 @@ export default {
 </script>
 
 <style scoped>
-iframe{
-    width: 100%!important;
-    height:300px;
-}
+
 </style>
