@@ -64,10 +64,10 @@ export default {
       <back-drop-image :imagePath="this.movieVideo.backdrop_path" />
       <div class="container pt-5">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-12">
             <poster :posterName="this.movieVideo.poster_path" />
           </div>
-          <div class="col-sm-7 details">
+          <div class="col-sm-7 col-12 details">
             <h2>{{this.movieVideo.title}}</h2>
             <p>{{this.movieVideo.overview}}</p>
             <div>
@@ -79,7 +79,7 @@ export default {
               <Trailer :trailerPath="this.trailerVideo"/>
             </div>
           </div>
-          <div class="col-sm-1">
+          <div class="col-sm-1 back col-12">
             <router-link class="back-to-home" to="/yayinda-olanlar">Back</router-link>
           </div>
         </div>

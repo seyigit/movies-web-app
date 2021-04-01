@@ -41,11 +41,11 @@ export default {
     <AppHeader />
     <Loader v-if="isloading" />
     <div class="head-title row align-items-center mb-4 pt-2">
-            <div class="col-md-5" >
+            <div class="col-md-5 col-8" >
         <h2 class="header-text pb-2">YAYINDA OLAN FİLMLER</h2>
       </div>
-      <div class="col-md-7 text-right ">
-        <router-link to="/yayinda-olanlar" class="all-movies"><h5>Tümünü Gör</h5></router-link>
+      <div class="col-md-7 col-4 text-right ">
+        <router-link to="/yayinda-olanlar"><h5 class="all-movies">Tümünü Gör</h5></router-link>
         </div>
     </div>
     <div class="row pb-5 d-flex">
@@ -53,11 +53,11 @@ export default {
          </Movie>
     </div>
         <div class="head-title row align-items-center mb-4 pt-2">
-            <div class="col-md-5" >
+            <div class="col-md-5 col-8" >
         <h2 class="header-text pb-2">EN ÇOK PUAN ALANLAR</h2>
       </div>
-      <div class="col-md-7 text-right ">
-        <router-link to="/en-iyiler" class="all-movies"><h5>Tümünü Gör</h5></router-link>
+      <div class="col-md-7 col-4 text-right ">
+        <router-link to="/en-iyiler"><h5 class="all-movies">Tümünü Gör</h5></router-link>
         </div>
     </div>
         <div class="row pb-5">
@@ -65,11 +65,11 @@ export default {
       </MovieTopRated>
     </div>
             <div class="head-title row align-items-center mb-4 pt-2">
-            <div class="col-md-5" >
+            <div class="col-md-5 col-8" >
         <h2 class="header-text pb-2">YAKINDA ÇIKACAK FİLMLER</h2>
       </div>
-      <div class="col-md-7 text-right ">
-        <router-link to="/en-iyiler" class="all-movies"><h5>Tümünü Gör</h5></router-link>
+      <div class="col-md-7 col-4 text-right ">
+        <router-link to="/en-iyiler"><h5 class="all-movies">Tümünü Gör</h5></router-link>
         </div>
     </div>
             <div class="row">

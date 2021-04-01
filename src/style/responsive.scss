@@ -1,0 +1,46 @@
+@media (max-width: 992px) {
+  .toggle-button {
+    display: flex !important;
+  }
+  .navigation {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+  .navigation.active {
+    display: flex !important;
+  }
+  .navigation a {
+    padding: 5px !important;
+    margin-top: 15px !important;
+
+    &:hover {
+      background-color: #ddd !important;
+    }
+  }
+  .search {
+    padding-top: 15px !important;
+    padding-bottom: 15px;
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+  .search.active{
+      display: flex;
+  }
+  .header-text{
+      font-size: 22px;
+  }
+  .all-movies{
+      font-size: 16px!important;
+  }
+  .details{
+      margin-top: 30px;
+  }
+  .back{
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      text-align: right!important;
+  }
+}

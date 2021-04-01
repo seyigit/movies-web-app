@@ -57,17 +57,37 @@ $text-color:gainsboro!important;
   color: #aaaaaa;
 }
 //AppHeader Components
+.toggle-button{
+  position: absolute;
+  top: 1.6rem;
+  right: 3rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 10px;
+  height: 21px;
+
+  .bar{
+    height: 3px;
+    width: 40px;
+    background-color: white;
+    border-radius: 10px;
+  }
+}
 .bg-dark {
   background: #000000 !important;
 }
 .navigation {
   a {
     font-size: 17px;
-
+    color: $text-color;
     &:hover {
       color:$link-hover-color ;
     }
   }
+}
+.navbar{
+  display: flex;
 }
 //BackDropImage.vue Components
 .backdrop {
