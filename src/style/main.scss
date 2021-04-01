@@ -15,7 +15,7 @@ $text-color:gainsboro!important;
     text-decoration: none;
   }
 }
-//App.Vue Css
+//App.Vue Css 
 .main {
   padding-top: 125px;
   padding-bottom: 60px;
@@ -47,6 +47,9 @@ $text-color:gainsboro!important;
     margin-left: 8px;
     font-size: 18px;
     font-weight: bold;
+  }
+  &:hover{
+    color: $link-hover-color;
   }
 }
 .header-text {
