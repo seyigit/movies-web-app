@@ -1,6 +1,6 @@
 # movies-app
 
-This project used Vue,Vuex,Vue Router,Bootstrap
+This project used Vue,Vuex,Vue Router,Sass,Bootstrap
 
 ## Project setup
 ```
