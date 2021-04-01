@@ -1,5 +1,7 @@
 # movies-app
 
+This project used Vue,Vuex,Vue Router,Bootstrap
+
 ## Project setup
 ```
 npm install
